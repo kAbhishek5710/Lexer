@@ -1,0 +1,87 @@
+.lexstake_page{
+    background: linear-gradient(6deg,#101422 0%,#333b57 8.85%,#07113c 23.82%,#0c1739 72.97%,#6f80a1 86.78%,#d6dddf 92%,#f1f7f9 100%);
+}
+
+.stake {
+    margin-left: 21%;
+    margin-right: 21%;
+}
+
+.banner1 {
+
+    margin-top: 28px;
+    background-color: #27335d;
+    height: 45px;
+    padding: 0.05rem;
+}
+
+.banner1 p {
+    background-color: #27335d;
+    margin: 10px;
+    font-size: 15px;
+    color: white;
+    margin: 0.85rem;
+    letter-spacing: .1rem;
+    font-weight: 600;
+}
+
+.banner1 p a {
+    color: white;
+    text-decoration: underline;
+    font-display: none;
+}
+
+.claimable_rewards {
+    /* margin-left: 21%;
+    margin-right: 21%; */
+    margin-top: 28px;
+    /* background-color: #0f6abe; */
+    height: 45px;
+    padding: 0.05rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.claimable_rewards h5 {
+    color: white;
+    background-color: #0f6abe;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 0.05rem;
+}
+
+.card {
+    /* margin-left: 21%;
+    margin-right: 21%; */
+    margin-top: 28px;
+    background-color: #27335d;
+}
+
+@media (max-width:1280px) {
+    .navBar .left .nav_items a {
+        overflow: hidden;
+        display: none;
+    }
+
+    .navBar .right .connect_btn {
+        font-size: small;
+        margin: 3px;
+    }
+
+    .navBar .left .menu {
+        display: block;
+        margin-left: 15px;
+        font-size: large;
+        opacity: 0.7;
+    }
+
+    .navBar .left .menu:hover {
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    .banner1 {
+        font-size: 10px;
+    }
+}

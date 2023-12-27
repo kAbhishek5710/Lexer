@@ -1,0 +1,136 @@
+.dashboard_page{
+    /* height: 100vh; */
+    font-weight: 100vw;
+    background: linear-gradient(115deg,#b4bad1 0%,#6d83c2 6.75%,#121826 32.05%,#0d0f15 66.34%,#0c2774 81.69%,rgba(188,195,213,.58) 100%);
+}
+.header_container{
+    height: 10vh;
+    background-color: rgba(18, 24, 38, 0.5);
+    display: flex;
+    justify-content: space-between;
+}
+.left_part{
+    height: 10vh;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 0px 20px;
+}
+.logo{
+    padding: 0px 50px;
+}
+.logo img{
+    height:22px;
+}
+.right_part{
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+.right_part .right_img{
+    padding-top: 7px;
+}
+.right_part Button{
+    display: flex;
+    height: 6vh;
+    flex-direction: row;
+    align-items: center;
+    padding:0px 15px;
+    border: 2px solid rgb(165, 162, 162);
+    border-radius: 10px;
+}
+.right_part Button p{
+    color: white;
+    padding: 0px 5px;
+}
+.stats_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1.5rem;
+    margin: 3rem 2rem;
+}
+.stats_card{
+    border-radius: 2.3rem;
+    border: 2px solid rgba(255,255,255,.2);
+    background: rgba(217,222,222,.05);
+    display: flex;
+    flex-direction: column;
+    min-height: 20rem;
+    min-width: 330px;
+    width: 30vw;
+}
+.dashboard_label{
+    /* font-size: 2rem; */
+    font-size: 1.5rem;
+    padding: 25px 50px;
+    font-weight: 700;
+    color: rgb(207, 207, 207);
+    margin-bottom: 1rem;
+}
+.dashboard_value{
+    /* font-size: 1.5rem; */
+    font-size: 1.2rem;
+    color: #59e98a;
+    /* padding: 25px 20px; */
+    display: flex;
+    flex-grow: .6;
+    align-items: center;
+    justify-content: center;
+}
+.drawer{
+    width: 0px;  
+}
+.pool-content-group{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem ;
+    position: relative;
+    padding: 0px 30px;
+}
+.pool-card{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    grid-gap: 1.5rem;
+    padding:20px 10px;
+    border-radius: 2.3rem;
+    border: 2px solid rgba(255,255,255,.2);
+    background: rgba(217,222,222,.05);
+    backdrop-filter: blur(70px);
+}
+.pool-info{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+}
+.pool-title{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 30px;
+}
+.pool-title span{
+    color: white;
+    padding: 0px 15px;
+}
+
+.App-card-row{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left:15px ;
+}
+.stats-pichart{
+    padding: 0px 0px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    padding-right: -10px;
+}
+.dashboard_disclosure{
+    position: relative;
+    width: 100%;
+    padding: 2rem 30px;
+}

@@ -1,0 +1,120 @@
+.liquidity_page{
+    height: 100vh; 
+    background: linear-gradient(6deg,#101422 0%,#333b57 8.85%,#07113c 23.82%,#0c1739 72.97%,#6f80a1 86.78%,#d6dddf 92%,#f1f7f9 100%);
+}
+.section_block_cont{
+    padding: 1.5rem;
+    width: 100%;
+}
+.section_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.xlp_title{
+  padding: 1rem;
+  width: 100%;
+  color: white;
+  text-align: center;
+  display: flex;
+justify-content: center;
+}
+.xlp_title a{
+    padding: 0px 7px;
+}
+.link_underline{
+    text-decoration: underline;
+    cursor: pointer;
+    display: flex;
+    color:#ffffffb3
+}
+.xlpswap{
+    position: relative;
+    display: flex;
+    border-radius: 4.3rem;
+    margin: 0px 3rem;
+    border: 2px solid rgba(255,255,255,.3);
+    background: rgba(217,217,217,.3);
+    box-shadow: 0 3px 8px 6px #0000001a inset;
+}
+.tab_block{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 50px;
+    /* grid-auto-flow: column;
+    grid-auto-columns: 1fr; */
+    overflow: hidden;
+    color: #ffffffb3;
+    border-radius: 4.3rem;
+    width: 50%;
+    /* border: 2px solid rgba(255,255,255,.3); */
+    /* background: rgba(217,217,217,.3); */
+    box-shadow: 0 3px 8px 6px #0000001a inset;
+}
+.tab_block:active{
+    background-color:  #0f81c2;
+}
+.tab_block:hover{
+    background-color:  #0f81c2;
+}
+.tab_option_xlp{
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    pointer-events: none;
+    color: #fff;
+    z-index: 2;
+}
+.xlpSwap_state{
+    display: flex;
+}
+.xlpSwap_left_container{
+    position: relative;
+     width: 40%;
+    display: grid;
+    grid-column-gap: .5rem;
+    grid-template-columns: repeat(2,1fr);
+    margin: 2rem 1rem 1rem 3rem;
+}
+.xlp_swap_box{
+    border-radius: 2.3rem;
+    border: 2px solid rgba(255,255,255,.2);
+    background: rgba(217,217,217,.1);
+    margin: 0rem 0rem .5rem 0rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.xlp_swap_innerbox{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.xlp_right-container{
+    position: relative;
+    width: 60%;
+    margin: 2rem 0px;
+    margin-right: 3rem;
+    background: rgba(217,217,217,.1);
+    border-radius: 2.3rem;
+}
+.xlp_right-container .xlpswap{
+    /* margin-top: 1rem; */
+    margin: 1rem 1rem;
+}
+.right_bottom_box{
+    display: flex;
+    flex-direction: column;
+}
+.right_pay{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 0px 2rem;
+}

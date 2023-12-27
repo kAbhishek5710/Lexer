@@ -1,0 +1,31 @@
+.left_portion img{
+    width: 30px;
+}
+.left_portion{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.left_text{
+  
+    padding: 0px 20px;
+    color: white;
+}
+/* .acc_box{
+    background-color: rgba(13,21,48,.8);
+  
+}*/
+/* .acc_box:hover{
+    background-color: rgba(18, 29, 65, 0.8);
+}  */
+
+.acc_textbox{
+    display: flex;
+    flex-direction: column;
+}
+.app_card_row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 3rem;
+}

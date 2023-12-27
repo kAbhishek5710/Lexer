@@ -1,0 +1,62 @@
+.lex-card {
+    margin-top: 40px;
+    border: 2px solid #8f8f8f;
+    padding: 1.5rem;
+    color: white;
+}
+
+
+
+.lex-card .title {
+    display: flex;
+    align-items: flex-start;
+    font-weight: bolder;
+    font-size: 700;
+}
+
+.lex-card .title img {
+    width: 35px;
+    margin-top: 7px;
+    margin-right: 15px;
+}
+
+.lex-card .title .name {
+    color: white;
+    font-size: larger;
+}
+
+.lex-card .content {
+    margin-top: 30px;
+    display: grid;
+    grid-row-gap: 2rem;
+}
+
+.lex-card .content .row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-column-gap: 1.5rem;
+    padding: unset;
+}
+
+.lex-card .content .label {
+    color: hsla(0, 0%, 100%, .7);
+    font-weight: bold;
+}
+
+.lex-card .content .value {
+    text-align: right;
+}
+
+.lex-card .content .total {
+    background-color: #172144;
+    padding: 15px;
+}
+
+.lex-card .content .total .label {
+    background-color: #172144;
+    margin: 4px;
+}
+
+.lex-card .content .total .value {
+    background-color: #172144;
+}

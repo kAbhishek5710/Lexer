@@ -1,0 +1,122 @@
+/* .wallet_section{
+  
+    height: 97vh;
+    width: 700px;
+  
+} */
+
+.Wallet_page{
+    /* position: relative; */
+    height: 97vh;
+    width: 600px;
+    background: #1c306a;
+    background: linear-gradient(150deg, #1a2c61 -26%, #203576 -40.70%, #22397f 24.45%);
+    animation: fadeIn 0.3s ease forwards;
+    display: flex;
+}
+.wallet_leftpage{
+    position: relative;
+    width: 40%;
+    height: 100%;
+}
+.recommended{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+    padding-bottom: 10px;
+}
+.recommended_name{
+    display: flex;
+    height: 40px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    padding-left: 7px;
+    
+}
+.recommended_name:hover{
+     border-radius: 15px;
+     background-color: rgb(45, 75, 165)
+}
+.recommended_name p{
+    color: white;padding: 0px 10px;
+}
+.recommended_name img{
+    width: 25px;
+    border-radius: 7px;
+}
+.left_title{
+    color: white;
+}
+.recommended_text{
+    color: rgb(147, 147, 147);
+}
+/* .vertical{
+    position: relative;
+    height: 100% ;
+} */
+.wallet_rightpage{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    margin: 0px 30px;
+}
+.right_title{
+    color: white; 
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.right_box img{
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    display: flex;
+   
+}
+.right_box{
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+
+}
+.right_box_text{
+    padding-left: 10px;
+    font-weight: 600;
+}
+.bold_text{
+    color: white;
+}
+.bold_text2{
+    color: rgb(157, 157, 157);
+}
+.buttons {
+    margin: 20px 0px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.buttons button{
+    cursor: pointer;
+    width: 130px;
+    height: 29px;
+    background-color: #16abff;
+    color: white;
+    border: 2px solid  #16abff;
+    border-radius: 15px;
+    font-size: 15px;
+}
+.buttons button:hover{
+    width: 132px;
+    height: 30px;
+}
+.buttons a{
+    text-decoration: none;
+    color: #16abff;
+    margin-top: 15px;
+}
+.buttons a:hover{
+    color: #108bd2;
+}

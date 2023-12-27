@@ -1,0 +1,30 @@
+.App-card-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 1rem;
+    gap: 1rem;
+}
+
+.button {
+    cursor: pointer;
+    font-size: var(--font-sm);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 1.1rem 1.6rem;
+    border: none;
+}
+
+.button.semi-clear {
+    background: #0f6abe;
+    color: #fff;
+    line-height: 1;
+    letter-spacing: 0;
+}
+
+
+button.grow {
+    flex-grow: 1;
+}
